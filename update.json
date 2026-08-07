@@ -1,0 +1,8 @@
+{
+  "latestVersionCode": 1,
+  "latestVersionName": "1.0",
+  "updateUrl": "https://your-app.en.uptodown.com/android",
+  "fallbackUrl": "https://your-app.en.uptodown.com/android",
+  "platform": "direct",
+  "releaseNotes": "Initial release:\n- JAMB & WAEC CBT simulator\n- 30+ novel summaries\n- Post UTME past questions\n- Offline access"
+}
