@@ -1,6 +1,6 @@
 {
-  "latestVersionCode": 1,
-  "latestVersionName": "1.0",
+  "latestVersionCode": 6,
+  "latestVersionName": "2.2",
   "updateUrl": "https://your-app.en.uptodown.com/android",
   "fallbackUrl": "https://your-app.en.uptodown.com/android",
   "platform": "direct",
