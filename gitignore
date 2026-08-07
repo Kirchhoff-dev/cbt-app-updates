@@ -1,0 +1,8 @@
+*.apk
+*.aab
+*.dex
+build/
+.idea/
+.DS_Store
+*.keystore
+*.jks
