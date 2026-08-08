@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 6,
-  "latestVersionName": "2.2",
-  "updateUrl": "https://your-app.en.uptodown.com/android",
-  "fallbackUrl": "https://your-app.en.uptodown.com/android",
+  "latestVersionCode": 99,
+  "latestVersionName": "99.0",
+  "updateUrl": "https://www.mediafire.com/file/xxxxx/ExamPrep_release.apk/file",
+  "fallbackUrl": "https://www.mediafire.com/file/xxxxx/ExamPrep_release.apk/file",
   "platform": "direct",
-  "releaseNotes": "Initial release:\n- JAMB & WAEC CBT simulator\n- 30+ novel summaries\n- Post UTME past questions\n- Offline access"
+  "releaseNotes": "Test update"
 }
