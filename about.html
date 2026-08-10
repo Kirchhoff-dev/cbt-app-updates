@@ -1,356 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CBT Exam Prep Suite</title>
-<style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        background: #F9FAFB;
-        color: #111827;
-        line-height: 1.6;
-        padding: 16px;
-        max-width: 700px;
-        margin: 0 auto;
-    }
-    
-    .hero {
-        text-align: center;
-        padding: 24px 16px;
-        background: linear-gradient(135deg, #10B981, #059669);
-        border-radius: 20px;
-        color: white;
-        margin-bottom: 20px;
-    }
-    .hero h1 { font-size: 22px; margin-bottom: 4px; }
-    .hero p { font-size: 13px; opacity: 0.9; }
-    .hero .version { 
-        display: inline-block; 
-        background: rgba(255,255,255,0.2); 
-        padding: 4px 12px; 
-        border-radius: 20px; 
-        font-size: 11px; 
-        margin-top: 8px; 
-    }
-    
-    .tab-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        margin-bottom: 20px;
-    }
-    .tab-btn {
-        flex: 1;
-        min-width: 80px;
-        padding: 10px 8px;
-        border: 2px solid #E5E7EB;
-        border-radius: 12px;
-        background: white;
-        font-size: 12px;
-        font-weight: bold;
-        color: #4B5563;
-        cursor: pointer;
-        text-align: center;
-        transition: all 0.2s;
-    }
-    .tab-btn.active {
-        background: #10B981;
-        color: white;
-        border-color: #10B981;
-    }
-    
-    .content-section {
-        display: none;
-        background: white;
-        border-radius: 16px;
-        padding: 20px;
-        margin-bottom: 16px;
-        border: 1px solid #E5E7EB;
-    }
-    .content-section.active { display: block; }
-    
-    .content-section h2 {
-        font-size: 18px;
-        color: #10B981;
-        margin-bottom: 12px;
-    }
-    .content-section h3 {
-        font-size: 15px;
-        color: #111827;
-        margin: 14px 0 6px 0;
-    }
-    .content-section p, .content-section li {
-        font-size: 14px;
-        color: #4B5563;
-        margin-bottom: 8px;
-    }
-    .content-section ul { padding-left: 20px; }
-    
-    .feature-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        margin-top: 12px;
-    }
-    .feature-card {
-        background: #F0FDF4;
-        border-radius: 12px;
-        padding: 14px;
-        text-align: center;
-    }
-    .feature-card .icon { font-size: 24px; margin-bottom: 4px; }
-    .feature-card .title { font-size: 13px; font-weight: bold; color: #065F46; }
-    .feature-card .desc { font-size: 11px; color: #6B7280; margin-top: 2px; }
-    
-    .testimonial {
-        background: #ECFDF5;
-        border-left: 4px solid #10B981;
-        border-radius: 0 12px 12px 0;
-        padding: 16px;
-        margin-bottom: 12px;
-    }
-    .testimonial .quote {
-        font-size: 14px;
-        font-style: italic;
-        color: #065F46;
-        margin-bottom: 6px;
-    }
-    .testimonial .name {
-        font-size: 13px;
-        font-weight: bold;
-        color: #10B981;
-    }
-    .testimonial .role {
-        font-size: 11px;
-        color: #6B7280;
-    }
-    
-    .mission-box {
-        background: linear-gradient(135deg, #ECFDF5, #D1FAE5);
-        border-radius: 16px;
-        padding: 20px;
-        margin-bottom: 14px;
-        text-align: center;
-    }
-    .mission-box .icon { font-size: 32px; margin-bottom: 8px; }
-    .mission-box h3 { color: #065F46; margin-bottom: 6px; }
-    .mission-box p { color: #065F46; font-size: 14px; }
-    
-    .contact-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 12px;
-    }
-    .contact-btn {
-        flex: 1;
-        min-width: 100px;
-        text-align: center;
-        padding: 12px;
-        border-radius: 12px;
-        text-decoration: none;
-        font-size: 13px;
-        font-weight: bold;
-        color: white;
-    }
-    .btn-wa { background: #25D366; }
-    .btn-tg { background: #0088cc; }
-    .btn-ig { background: #E4405F; }
-    
-    .footer {
-        text-align: center;
-        padding: 20px;
-        font-size: 12px;
-        color: #9CA3AF;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Exam Prep - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #F1F8E9;
+            color: #1A1A1A;
+            line-height: 1.7;
+            padding: 0;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 16px 18px 30px;
+        }
+
+        /* ===== HEADINGS ===== */
+        .main-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1B5E20;
+            margin-top: 0;
+            margin-bottom: 6px;
+        }
+
+        .sub-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-top: 18px;
+            margin-bottom: 4px;
+        }
+
+        .divider {
+            height: 1px;
+            background: #E8F5E9;
+            margin: 16px 0;
+        }
+
+        /* ===== TEXT ===== */
+        p {
+            font-size: 14px;
+            color: #1A1A1A;
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .date {
+            font-size: 13px;
+            color: #616161;
+            margin-bottom: 10px;
+        }
+
+        /* ===== BULLET LIST ===== */
+        .bullet-list {
+            list-style: none;
+            padding: 0;
+            margin: 6px 0 10px;
+        }
+
+        .bullet-list li {
+            padding: 3px 0 3px 22px;
+            position: relative;
+            font-size: 14px;
+            color: #1A1A1A;
+        }
+
+        .bullet-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            top: 3px;
+            color: #2E7D32;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* ===== DISCLAIMER ===== */
+        .disclaimer-item {
+            padding: 4px 0 4px 24px;
+            position: relative;
+            font-size: 13px;
+            color: #1A1A1A;
+            line-height: 1.5;
+            margin-bottom: 6px;
+        }
+
+        .disclaimer-item::before {
+            content: '◆';
+            position: absolute;
+            left: 0;
+            top: 4px;
+            color: #2E7D32;
+            font-size: 14px;
+        }
+
+        /* ===== CONTACT ===== */
+        .contact-item {
+            padding: 4px 0;
+            font-size: 14px;
+            color: #1B5E20;
+            font-weight: 500;
+        }
+
+        .contact-item .icon {
+            margin-right: 10px;
+        }
+
+        /* ===== TAGS ===== */
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin: 12px 0 8px;
+            justify-content: center;
+        }
+
+        .tag {
+            background: #E8F5E9;
+            color: #1B5E20;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            text-align: center;
+            padding: 16px 0 8px;
+            border-top: 1px solid #E8F5E9;
+            margin-top: 16px;
+        }
+
+        .footer .copyright {
+            font-size: 11px;
+            color: #616161;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin: 6px 0 0;
+            font-size: 12px;
+        }
+
+        .footer-links a {
+            color: #1B5E20;
+            text-decoration: none;
+            font-weight: 500;
+        }
+    </style>
 </head>
 <body>
 
-<div class="hero">
-    <h1>📚 CBT Exam Prep Suite</h1>
-    <p>Your all-in-one offline exam simulator for JAMB, WAEC & Post UTME</p>
-    <span class="version">Version 2.2</span>
-</div>
+<div class="container">
 
-<div class="tab-row">
-    <button class="tab-btn active" onclick="showTab('about')">📱 About</button>
-    <button class="tab-btn" onclick="showTab('testimonials')">⭐ Reviews</button>
-    <button class="tab-btn" onclick="showTab('mission')">🎯 Mission</button>
-    <button class="tab-btn" onclick="showTab('privacy')">🔒 Privacy</button>
-    <button class="tab-btn" onclick="showTab('terms')">📋 Terms</button>
-</div>
+    <!-- ===== PRIVACY POLICY ===== -->
+    <div class="main-title">Our Privacy Policy</div>
+    <p>Our Privacy Policy outlines how we collect, use, and protect your personal information. Your privacy and security are our priorities.</p>
+    <p class="date">- Last Updated on August, 2026</p>
 
-<!-- ABOUT -->
-<div id="tab-about" class="content-section active">
-    <h2>About the App</h2>
-    <p>CBT Exam Prep Suite is a comprehensive offline examination preparation tool designed for Nigerian students. Practice thousands of real past questions, study detailed novel summaries, and track your performance — all without internet access.</p>
-    
-    <h3>✨ Key Features</h3>
-    <div class="feature-grid">
-        <div class="feature-card">
-            <div class="icon">📝</div>
-            <div class="title">CBT Simulator</div>
-            <div class="desc">Timed exams for JAMB, WAEC & Post UTME</div>
-        </div>
-        <div class="feature-card">
-            <div class="icon">📖</div>
-            <div class="title">Novel Summaries</div>
-            <div class="desc">30+ literature texts fully broken down</div>
-        </div>
-        <div class="feature-card">
-            <div class="icon">📊</div>
-            <div class="title">Analytics</div>
-            <div class="desc">Track your performance over time</div>
-        </div>
-        <div class="feature-card">
-            <div class="icon">📱</div>
-            <div class="title">100% Offline</div>
-            <div class="desc">No internet needed after install</div>
-        </div>
-        <div class="feature-card">
-            <div class="icon">🎴</div>
-            <div class="title">Flash Cards</div>
-            <div class="desc">Quick revision across all subjects</div>
-        </div>
-        <div class="feature-card">
-            <div class="icon">🌙</div>
-            <div class="title">Dark Mode</div>
-            <div class="desc">Study comfortably day or night</div>
-        </div>
-    </div>
-</div>
+    <div class="divider"></div>
 
-<!-- TESTIMONIALS -->
-<div id="tab-testimonials" class="content-section">
-    <h2>What Students Say</h2>
-    
-    <div class="testimonial">
-        <div class="quote">"This app helped me score 320+ in my UTME. The CBT simulator feels exactly like the real exam!"</div>
-        <div class="name">Chidinma O.</div>
-        <div class="role">JAMB 2026 Candidate</div>
-    </div>
-    
-    <div class="testimonial">
-        <div class="quote">"The offline access saved me. I practiced everywhere without data. Passed WAEC with distinction!"</div>
-        <div class="name">Ibrahim M.</div>
-        <div class="role">WAEC Student</div>
-    </div>
-    
-    <div class="testimonial">
-        <div class="quote">"UNILAG past questions were spot on. I passed my Post UTME with confidence."</div>
-        <div class="name">Tolu A.</div>
-        <div class="role">Post UTME Aspirant</div>
-    </div>
-    
-    <div class="testimonial">
-        <div class="quote">"The novel summaries are a lifesaver. Lekki Headmaster breakdown was perfect."</div>
-        <div class="name">Fatima K.</div>
-        <div class="role">SS3 Student</div>
-    </div>
-    
-    <div class="testimonial">
-        <div class="quote">"I recommended this app to my entire study group. Best CBT prep tool I've used."</div>
-        <div class="name">David E.</div>
-        <div class="role">JAMB 2026 Candidate</div>
-    </div>
-</div>
-
-<!-- MISSION & VISION -->
-<div id="tab-mission" class="content-section">
-    <h2>Our Mission & Vision</h2>
-    
-    <div class="mission-box">
-        <div class="icon">🎯</div>
-        <h3>Our Mission</h3>
-        <p>To democratize access to quality exam preparation tools for every Nigerian student, regardless of their location or internet connectivity. We believe that financial constraints should never be a barrier to academic success.</p>
-    </div>
-    
-    <div class="mission-box">
-        <div class="icon">🔭</div>
-        <h3>Our Vision</h3>
-        <p>To become the most trusted and widely used offline exam preparation platform across West Africa, empowering millions of students to achieve their academic goals through accessible, affordable, and high-quality digital learning tools.</p>
-    </div>
-    
-    <div class="mission-box">
-        <div class="icon">💚</div>
-        <h3>Our Values</h3>
-        <p>Accessibility • Quality • Integrity • Innovation • Student Success</p>
-    </div>
-</div>
-
-<!-- PRIVACY POLICY -->
-<div id="tab-privacy" class="content-section">
-    <h2>Privacy Policy</h2>
-    <p><strong>Last Updated: August 2026</strong></p>
-    
-    <h3>Information We Collect</h3>
-    <p>We do not collect, store, or share any personal information. All your study data, scores, preferences, and settings remain exclusively on your device.</p>
-    
-    <h3>Device Permissions</h3>
-    <p>Internet access is required solely for license verification and update checks. Notifications are used for optional study reminders. We do NOT access your contacts, location, camera, microphone, photos, or files.</p>
-    
-    <h3>Third-Party Services</h3>
-    <p>Firebase (Google LLC) is used for license activation verification. GitHub is used to check for app updates. Neither service collects personal data through our app.</p>
-    
-    <h3>Children's Privacy</h3>
-    <p>Our app is an educational tool suitable for all ages. We do not knowingly collect personal information from anyone.</p>
-    
-    <h3>Data Security</h3>
-    <p>All data is stored locally on your device. You are responsible for maintaining your device's security.</p>
-    
-    <h3>Policy Updates</h3>
-    <p>Changes will be communicated through our Telegram channel and in-app notices.</p>
-</div>
-
-<!-- TERMS -->
-<div id="tab-terms" class="content-section">
-    <h2>Terms of Use</h2>
-    <p>By using CBT Exam Prep Suite, you agree to:</p>
-    <ul>
-        <li>Use the app for personal educational purposes only</li>
-        <li>Not redistribute, modify, or reverse-engineer the app</li>
-        <li>Not use the app for any form of exam malpractice</li>
-        <li>Respect the intellectual property rights of content owners</li>
-        <li>Understand that subscription fees are non-refundable after activation</li>
+    <div class="sub-title">What and Why</div>
+    <p>This app does <strong>NOT</strong> collect, store, or share any personal data. All data remains locally on your device.</p>
+    <p>We collect NO personal data because:</p>
+    <ul class="bullet-list">
+        <li>No account creation required</li>
+        <li>No login or registration process</li>
+        <li>No internet connection needed</li>
+        <li>No tracking or analytics tools</li>
+        <li>No third-party services</li>
+        <li>No advertisements</li>
     </ul>
-    
-    <h3>Disclaimer</h3>
-    <p>The app is provided "as is" without warranties of any kind. We are not liable for exam outcomes — your success depends on your dedication and preparation. Past questions are provided for practice purposes and do not guarantee future exam content.</p>
-    
-    <h3>Contact</h3>
-    <p>For support, inquiries, or feedback:</p>
-    <div class="contact-links">
-        <a href="https://wa.me/2349031144480" class="contact-btn btn-wa">💬 WhatsApp</a>
-        <a href="https://t.me/Kirchhoffandrew" class="contact-btn btn-tg">📢 Telegram</a>
-        <a href="https://instagram.com/kirchyartz036" class="contact-btn btn-ig">📷 Instagram</a>
+    <p>All user data — including study progress, quiz scores, saved questions, and app preferences — is stored ONLY on your device.</p>
+    <p>When you uninstall the app, all data is permanently removed from your device.</p>
+
+    <div class="divider"></div>
+
+    <div class="sub-title">Data Security</div>
+    <p>Since no data is collected or transmitted, there is zero risk of your data being intercepted, leaked, or misused.</p>
+    <p>We do not have access to your information — period.</p>
+
+    <div class="divider"></div>
+
+    <div class="sub-title">Your Rights</div>
+    <p>You have full control over your data:</p>
+    <ul class="bullet-list">
+        <li><strong>Right to access:</strong> View all your data within the app</li>
+        <li><strong>Right to correction:</strong> Update your progress anytime</li>
+        <li><strong>Right to deletion:</strong> Uninstall the app to remove all data</li>
+    </ul>
+
+    <div class="divider"></div>
+
+    <div class="sub-title">Third-Party Services</div>
+    <p>This app does not use any third-party services, analytics, or tracking tools.</p>
+    <p>No external libraries that collect data. No SDKs with tracking capabilities. No advertising networks.</p>
+
+    <div class="divider"></div>
+
+    <div class="sub-title">Children's Privacy</div>
+    <p>This app is suitable for students of all ages. We do not knowingly collect any personal information from children under 13.</p>
+    <p>Since we collect no data at all, there is nothing to collect or protect.</p>
+
+    <div class="divider"></div>
+
+    <div class="sub-title">Policy Updates</div>
+    <p>We may update this Privacy Policy from time to time. The most current version will always be available in this app.</p>
+    <p>If a revision meaningfully reduces your rights, we will notify you.</p>
+
+    <div class="divider"></div>
+
+    <div class="sub-title">Important Disclaimers</div>
+
+    <div class="disclaimer-item">This application is NOT affiliated with, endorsed by, sponsored by, or connected to the Joint Admissions and Matriculation Board (JAMB), West African Examinations Council (WAEC), or any other examination body in Nigeria or elsewhere.</div>
+
+    <div class="disclaimer-item">All practice questions and study materials provided in this app are original content created for educational purposes only and do not represent actual past examination questions from any official examination body.</div>
+
+    <div class="disclaimer-item">Literature summaries provided in this app are study aids created for educational reference. Users are encouraged to read the original texts in full for comprehensive understanding.</div>
+
+    <div class="disclaimer-item">While we strive to provide accurate and up-to-date information, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability of the information, products, services, or related graphics contained in this app for any purpose.</div>
+
+    <div class="divider"></div>
+
+    <div class="sub-title">Contact Us</div>
+    <p>If you have questions or concerns about Exam Prep, our Services, this privacy policy, and privacy, please contact us at:</p>
+
+    <div class="contact-item"><span class="icon">📧</span> support@codeprep.com</div>
+    <div class="contact-item"><span class="icon">📞</span> +234 800 555 0199</div>
+    <div class="contact-item"><span class="icon">🌐</span> www.codeprep.com</div>
+
+    <div class="divider"></div>
+
+    <!-- ===== TAGS ===== -->
+    <div class="tags">
+        <span class="tag">Exams</span>
+        <span class="tag">UTME</span>
+        <span class="tag">WAEC</span>
+        <span class="tag">Post UTME</span>
+        <span class="tag">CBT for Schools</span>
+        <span class="tag">Literature</span>
     </div>
-</div>
 
-<div class="footer">
-    <p>© 2026 Kirchhoff Tech. All rights reserved.</p>
-    <p>Built with ❤️ in Nigeria</p>
-</div>
+    <!-- ===== FOOTER ===== -->
+    <div class="footer">
+        <div class="copyright">© 2026 CodeClass Nigeria. All rights reserved.</div>
+        <div class="footer-links">
+            <a href="#">Terms Of Use</a>
+            <span style="color:#616161;">•</span>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </div>
 
-<script>
-function showTab(tabName) {
-    // Hide all content sections
-    var sections = document.querySelectorAll('.content-section');
-    sections.forEach(function(s) { s.classList.remove('active'); });
-    
-    // Deactivate all buttons
-    var btns = document.querySelectorAll('.tab-btn');
-    btns.forEach(function(b) { b.classList.remove('active'); });
-    
-    // Show selected section
-    document.getElementById('tab-' + tabName).classList.add('active');
-    
-    // Activate clicked button
-    event.target.classList.add('active');
-}
-</script>
+</div>
 
 </body>
-  </html>
+</html>
