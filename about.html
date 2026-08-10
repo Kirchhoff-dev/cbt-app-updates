@@ -24,24 +24,24 @@
         .container {
             max-width: 600px;
             margin: 0 auto;
-            padding: 20px 18px 30px;
+            padding: 20px 20px 30px;
         }
 
-        /* ===== HEADINGS ===== */
         .main-title {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 700;
             color: #1B5E20;
             margin-top: 0;
             margin-bottom: 6px;
+            padding-top: 4px;
         }
 
         .sub-title {
-            font-size: 16px;
+            font-size: 17px;
             font-weight: 700;
             color: #1B5E20;
-            margin-top: 18px;
-            margin-bottom: 4px;
+            margin-top: 20px;
+            margin-bottom: 6px;
         }
 
         .divider {
@@ -50,12 +50,11 @@
             margin: 16px 0;
         }
 
-        /* ===== TEXT ===== */
         p {
             font-size: 14px;
             color: #1A1A1A;
             margin-bottom: 8px;
-            line-height: 1.6;
+            line-height: 1.7;
         }
 
         .date {
@@ -64,7 +63,6 @@
             margin-bottom: 10px;
         }
 
-        /* ===== BULLET LIST ===== */
         .bullet-list {
             list-style: none;
             padding: 0;
@@ -72,82 +70,87 @@
         }
 
         .bullet-list li {
-            padding: 3px 0 3px 22px;
+            padding: 4px 0 4px 22px;
             position: relative;
             font-size: 14px;
             color: #1A1A1A;
+            line-height: 1.6;
         }
 
         .bullet-list li::before {
             content: '•';
             position: absolute;
             left: 0;
-            top: 3px;
+            top: 4px;
             color: #1B5E20;
             font-weight: bold;
             font-size: 18px;
         }
 
-        /* ===== DISCLAIMER ===== */
         .disclaimer-item {
-            padding: 4px 0 4px 24px;
+            padding: 6px 0 6px 24px;
             position: relative;
             font-size: 13px;
             color: #1A1A1A;
-            line-height: 1.5;
-            margin-bottom: 6px;
+            line-height: 1.6;
+            margin-bottom: 8px;
         }
 
         .disclaimer-item::before {
             content: '◆';
             position: absolute;
             left: 0;
-            top: 4px;
+            top: 6px;
             color: #1B5E20;
             font-size: 14px;
         }
 
-        /* ===== CONTACT ===== */
         .contact-item {
-            padding: 4px 0;
+            padding: 6px 0;
             font-size: 14px;
+            color: #1A1A1A;
+            display: flex;
+            align-items: baseline;
+        }
+
+        .contact-item .label {
+            font-weight: 600;
             color: #1B5E20;
-            font-weight: 500;
+            min-width: 80px;
         }
 
-        .contact-item .icon {
-            margin-right: 10px;
+        .contact-item .text {
+            color: #1A1A1A;
         }
 
-        /* ===== TAGS ===== */
         .tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 6px;
-            margin: 12px 0 8px;
+            gap: 8px;
+            margin: 16px 0 12px;
             justify-content: center;
         }
 
         .tag {
             background: #E8F5E9;
             color: #1B5E20;
-            padding: 4px 14px;
+            padding: 6px 16px;
             border-radius: 20px;
             font-size: 12px;
             font-weight: 500;
         }
 
-        /* ===== FOOTER ===== */
         .footer {
             text-align: center;
-            padding: 16px 0 8px;
+            padding: 20px 0 8px;
             border-top: 1px solid #E8F5E9;
-            margin-top: 16px;
+            margin-top: 20px;
         }
 
         .footer .copyright {
             font-size: 11px;
             color: #616161;
+            padding-bottom: 4px;
         }
 
         .footer-links {
@@ -169,7 +172,6 @@
 
 <div class="container">
 
-    <!-- ===== PRIVACY POLICY ===== -->
     <div class="main-title">Our Privacy Policy</div>
     <p>Our Privacy Policy outlines how we collect, use, and protect your personal information. Your privacy and security are our priorities.</p>
     <p class="date">- Last Updated on August, 2026</p>
@@ -245,12 +247,17 @@
     <div class="sub-title">Contact Us</div>
     <p>If you have questions or concerns about Exam Prep, our Services, this privacy policy, and privacy, please contact us at:</p>
 
-    <div class="contact-item"><span class="icon">✉️</span> info@veracone.com</div>
-    <div class="contact-item"><span class="icon">📞</span> +2348107993604</div>
+    <div class="contact-item">
+        <span class="label">WhatsApp:</span>
+        <span class="text">+234 903 114 4480, +234 708 007 7741</span>
+    </div>
+    <div class="contact-item">
+        <span class="label">Phone:</span>
+        <span class="text">+234 903 114 4480, +234 708 007 7741</span>
+    </div>
 
     <div class="divider"></div>
 
-    <!-- ===== TAGS ===== -->
     <div class="tags">
         <span class="tag">Exams</span>
         <span class="tag">UTME</span>
@@ -260,9 +267,8 @@
         <span class="tag">Literature</span>
     </div>
 
-    <!-- ===== FOOTER ===== -->
     <div class="footer">
-        <div class="copyright">© 2026 Veracone Technologies Ltd. All rights reserved.</div>
+        <div class="copyright">© 2026 Kirchhoff Tech. All rights reserved.</div>
         <div class="footer-links">
             <a href="#">Terms Of Use</a>
             <span style="color:#616161;">•</span>
