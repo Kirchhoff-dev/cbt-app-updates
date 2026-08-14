@@ -1,8 +1,8 @@
 {
   "latestVersionCode": 6,
-  "latestVersionName": "2.2",
-  "updateUrl": "https://your-app.en.uptodown.com/android",
-  "fallbackUrl": "https://your-app.en.uptodown.com/android",
+  "latestVersionName": "2.25",
+  "updateUrl": "https://examprep.apk.com",
+  "fallbackUrl": "https://apkpure.com/p/com.kirchhoff.examprep",
   "platform": "direct",
   "releaseNotes": "Initial release:\n- JAMB & WAEC CBT simulator\n- Novel summaries\n- Post UTME practice\n- Offline access"
 }
