@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 5,
+  "latestVersionCode": 8,
   "latestVersionName": "2.25",
-  "updateUrl": "https://t.me/KirchhoffExamPrep/60",
-  "fallbackUrl": "https://t.me/KirchhoffExamPrep/60",
+  "updateUrl": "https://kirchhoff-dev.github.io/kirchhoff-examprep-website/",
+  "fallbackUrl": "https://bit.ly/4icNNqp",
   "platform": "direct",
   "releaseNotes": "Initial release:\n- JAMB & WAEC CBT simulator\n- Novel summaries\n- Post UTME practice\n- Offline access"
 }
