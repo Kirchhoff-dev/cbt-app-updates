@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "title": "TEST MESSAGE",
-  "message": "This is a test. Tap to see if this works!",
-  "link": "https://apkpure.com/p/com.kirchhoff.examprep",
-  "version_code": 99
+  "title": "📚 30-Day JAMB Master Plan is LIVE!",
+  "message": "Hey Scholar! We just dropped a COMPLETE 30-day study guide on our blog.\n\nWhat you'll get:\n\n• Week-by-week study schedule\n• Subject-specific tips (Math, English, Sciences)\n• Exam day survival guide\n• CBT tricks most students ignore\n\nPlus: Post UTME guides for 23+ schools and full WAEC syllabus breakdown.\n\nThis is the difference between 'I hope I pass' and 'I KNOW I'll pass.'\n\nTap OPEN to read now!",
+  "link": "https://kirchhoff-dev.github.io/kirchhoff-examprep-website/blog/how-to-pass-jamb.html",
+  "version_code": 1
 }
