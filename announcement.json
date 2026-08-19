@@ -1,6 +1,6 @@
 {
-  "enabled": false,
-  "title": "Welcome to Exam Prep!",
+  "enabled": true,
+  "title": "Welcome to Exam Prep! 🎉",
   "message": "Thanks for using Exam Prep. Stay tuned for updates!",
   "link": "https://apkpure.com/p/com.kirchhoff.examprep",
   "version_code": 1
