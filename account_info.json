@@ -1,19 +1,19 @@
 {
   "accounts": [
     {
-      "bank_name": "OPay",
+      "bank_name": "Fairmoney MFB",
       "account_number": "8105422790",
       "account_name": "OMONIGHO OKWEDE"
     },
     {
-      "bank_name": "Fairmoney MFB",
-      "account_number": "9031144480",
-      "account_name": "ANDREW KIRCHHOFF"
+      "bank_name": "First Bank NIG",
+      "account_number": "3177334880",
+      "account_name": "OMONIGHO OKWEDE"
     },
     {
-      "bank_name": "MOMO Payment Service Bank(PSB)",
+      "bank_name": "MOMO Payment Service Bank",
       "account_number": "9031144480",
-      "account_name": "SANDRA OKWEDE"
+      "account_name": "OMONIGHO OKWEDE"
     }
   ]
 }
