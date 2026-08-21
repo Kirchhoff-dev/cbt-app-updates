@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "title": "Build a Consistent Study Routine",
-  "message": "Consistency is the foundation of exam success.\n\nA well-structured study routine helps you retain more information and reduces last-minute pressure.\n\nTips for building a strong routine:\n\n- Study at the same time each day\n- Break large topics into smaller sections\n- Review past questions regularly\n- Take short breaks to stay focused\n- Track your progress with the app's analytics\n\nVisit our blog for detailed guidance on creating a study schedule that works for you.",
+  "title": "Welcome to Exam Prep",
+  "message": "Thank you for choosing Exam Prep — your complete companion for JAMB, WAEC, NECO, and Post UTME preparation.\n\nThis latest version brings you:\n\n- A clean and modern interface\n- Improved CBT simulator for realistic practice\n- Updated question bank with fresh content\n- Performance analytics to track your progress\n- An enhanced announcement system to keep you informed\n\nWe are committed to helping you prepare smarter and score higher.\n\nVisit our blog for free study tips, exam strategies, and preparation guides designed to boost your confidence before exam day.\n\nStart exploring and make the most of your preparation.",
   "link": "https://kirchhoff-dev.github.io/kirchhoff-examprep-website/blog.html",
-  "version_code": 3
+  "version_code": 1
 }
