@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "title": "Master Time Management for Exam Success",
-  "message": "Effective time management is one of the most important skills for exam success.\n\nOur latest blog post covers practical strategies to help you:\n\n- Create a realistic study schedule\n- Prioritize subjects based on exam weight\n- Use focused study sessions with breaks\n- Avoid procrastination and burnout\n- Balance multiple subjects effectively\n- Track your progress consistently\n\nThese methods are designed to help you maximize your preparation time and perform at your best on exam day.\n\nVisit our blog to read the full guide and start improving your study routine today.",
-  "link": "https://kirchhoff-dev.github.io/kirchhoff-examprep-website/blog/how-to-pass-jamb.html",
-  "version_code": 2
+  "title": "Build a Consistent Study Routine",
+  "message": "Consistency is the foundation of exam success.\n\nA well-structured study routine helps you retain more information and reduces last-minute pressure.\n\nTips for building a strong routine:\n\n- Study at the same time each day\n- Break large topics into smaller sections\n- Review past questions regularly\n- Take short breaks to stay focused\n- Track your progress with the app's analytics\n\nVisit our blog for detailed guidance on creating a study schedule that works for you.",
+  "link": "https://kirchhoff-dev.github.io/kirchhoff-examprep-website/blog.html",
+  "version_code": 3
 }
