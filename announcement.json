@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "title": "Welcome to Exam Prep",
-  "message": "Thank you for choosing Exam Prep — your complete companion for JAMB, WAEC, NECO, and Post UTME preparation.\n\nThis latest version brings you:\n\n- A clean and modern interface\n- Improved CBT simulator for realistic practice\n- Updated question bank with fresh content\n- Performance analytics to track your progress\n- An enhanced announcement system to keep you informed\n\nWe are committed to helping you prepare smarter and score higher.\n\nVisit our blog for free study tips, exam strategies, and preparation guides designed to boost your confidence before exam day.\n\nStart exploring and make the most of your preparation.",
-  "link": "https://kirchhoff-dev.github.io/kirchhoff-examprep-website/blog.html",
-  "version_code": 1
+  "title": "🎓 JAMB CAPS 2026/2027 Is Now Active!",
+  "message": "Schools have started uploading admission offers. Check your admission status NOW before it's too late!\n\n📋 How to Check:\n\n• Visit efacility.jamb.gov.ng\n• Login with your JAMB email & password\n• Click 'Check Admission Status'\n• Click 'Access My CAPS'\n• Click 'Admission Status'\n\n✅ If Admitted:\n• Send ACCEPT or REJECT as SMS to 55019 or 66019 (use JAMB-linked number)\n• You have 4 weeks to accept\n• Print your JAMB Admission Letter after accepting\n\n📱 Phone Users:\nUse Chrome → Request Desktop Site if options don't show fully.\n\n🔴 Don't miss your admission — check TODAY!",
+  "link": "https://efacility.jamb.gov.ng/",
+  "version_code": 2
 }
