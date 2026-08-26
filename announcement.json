@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "title": "🎓 JAMB CAPS 2026/2027 Is Now Active!",
-  "message": "Schools have started uploading admission offers. Check your admission status NOW before it's too late!\n\n📋 How to Check:\n\n• Visit efacility.jamb.gov.ng\n• Login with your JAMB email & password\n• Click 'Check Admission Status'\n• Click 'Access My CAPS'\n• Click 'Admission Status'\n\n✅ If Admitted:\n• Send ACCEPT or REJECT as SMS to 55019 or 66019 (use JAMB-linked number)\n• You have 4 weeks to accept\n• Print your JAMB Admission Letter after accepting\n\n📱 Phone Users:\nUse Chrome → Request Desktop Site if options don't show fully.\n\n🔴 Don't miss your admission — check TODAY!",
-  "link": "https://efacility.jamb.gov.ng/",
-  "version_code": 2
+  "title": "📚 Exam Prep v3.5 Is Here — Bigger, Better & Smarter!",
+  "message": "We've been working hard to make your study experience even better! 🚀\n\n✨ What's New in v3.5:\n\n📝 2026 Past Questions Added\n• Over 1,000+ new questions added for better study coverage\n• Updated to the latest 2026 exam patterns\n• More topics to revise across all subjects\n\n🔔 Smart Notification System\n• Never miss important updates\n• Customizable alerts for your study schedule\n• Reminders for your exam dates\n\n🎨 Avatar Customization\n• Personalize your profile with custom avatars\n• Express yourself while you learn\n\n🛠 Performance & Bug Fixes\n• Faster load times for smoother studying\n• Fixed crashes and improved stability\n• Enhanced offline mode support\n\n💬 Direct Support Links\n• Quick access to help when you need it\n• Faster response times for your queries\n\n📖 Learn more about all the improvements on our blog:\n\n🎯 Already loving Exam Prep? Share it with your friends, classmates, and schoolmates! Together, you can study smarter and achieve your goals. Invite them to join the community today! 💪\n\nUpdate now and take your exam prep to the next level!",
+  "link": "https://kirchhoff-dev.github.io/kirchhoff-examprep-website/blog.html",
+  "version_code": 3
 }
