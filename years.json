@@ -1,17 +1,14 @@
 {
   "years": [
-    {"label": "2016-2017", "enabled": true},
-    {"label": "2017-2018", "enabled": true},
-    {"label": "2018-2019", "enabled": true},
-    {"label": "2019-2020", "enabled": true},
-    {"label": "2020-2021", "enabled": true},
-    {"label": "2021-2022", "enabled": true},
-    {"label": "2022-2023", "enabled": true},
-    {"label": "2023-2024", "enabled": true},
-    {"label": "2024-2025", "enabled": true},
-    {"label": "2025-2026", "enabled": true}
-  ],
-  "quantities": [15, 30, 40],
-  "default_year": "2023-2024",
-  "default_quantity": 30
+    "2016-2017",
+    "2017-2018",
+    "2018-2019",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2023",
+    "2023-2024",
+    "2024-2025",
+    "2025-2026"
+  ]
 }
