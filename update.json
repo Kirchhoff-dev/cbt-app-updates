@@ -1,8 +1,7 @@
 {
-  "latestVersionCode": 7,
   "latestVersionName": "3.5",
   "updateUrl": "https://kirchhoff-dev.github.io/kirchhoff-examprep-website/",
   "fallbackUrl": "https://examprep.apk.com/",
   "platform": "direct",
-  "releaseNotes": "Initial release:\n- JAMB & WAEC CBT simulator\n- Novel summaries\n- Post UTME practice\n- Offline access"
+  "releaseNotes": "Bug fixes and improvements"
 }
