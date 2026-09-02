@@ -1,8 +1,8 @@
 {
   "latestVersionCode": 7,
   "latestVersionName": "3.5",
-  "updateUrl": "https://kirchhoff-dev.github.io/kirchhoff-examprep-website/",
-  "fallbackUrl": "https://bit.ly/4icNNqp",
+  "updateUrl": "https://github.com/Kirchhoff-dev/kirchhoff-examprep-website/releases/download/v3.6/ExamPrep_App.apk",
+  "fallbackUrl": "",
   "platform": "direct",
   "releaseNotes": "..."
 }
