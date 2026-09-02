@@ -1,7 +1,8 @@
 {
-  "latestVersionName": "3.6",
+  "latestVersionCode": 7,
+  "latestVersionName": "3.5",
   "updateUrl": "https://kirchhoff-dev.github.io/kirchhoff-examprep-website/",
-  "fallbackUrl": "https://examprep.apk.com/",
+  "fallbackUrl": "https://bit.ly/4icNNqp",
   "platform": "direct",
-  "releaseNotes": "Bug fixes and improvements"
+  "releaseNotes": "..."
 }
